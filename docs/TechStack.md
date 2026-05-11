@@ -1,5 +1,4 @@
 ```markdown
-
 ## Application Design
 
 For application design, I plan to use Figma to create wireframes and click-through prototypes for the project. Figma is useful because it allows easy collaboration, clean UI planning, and responsive layout design before development begins. I would also like to explore UI kits and design inspiration from Material UI and Bootstrap to help create a modern and user-friendly interface. Using these tools will help improve the overall user experience and provide a more professional appearance for the final application.
@@ -8,7 +7,8 @@ For application design, I plan to use Figma to create wireframes and click-throu
 
 ## Front End Framework
 
-For front-end development, I plan to use HTML, CSS, JavaScript, and React. React will allow me to build reusable components and improve the overall interactivity of the application. I also plan to organize components using a clean file structure and follow best practices with ESLint for code consistency and readability. CSS will be used for styling and responsive design to ensure the application works well across different screen sizes. Learning and using React will strengthen my front-end development skills and add value to my portfolio.
+For front-end development, I plan to use HTML, CSS, JavaScript, and React. React will allow me to build reusable components and improve the overall interactivity of the application. I also plan to organize components using a clean file structure and follow best practices with ESLint for code consistency and readability. CSS will be used for styling and responsive design to ensure the application works well across different screen sizes. Learning and using React will strengthen my front-end development skills and add value to my portfolio. (Might use tailwind)
+
 
 
 
