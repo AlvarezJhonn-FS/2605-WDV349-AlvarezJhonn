@@ -11,6 +11,7 @@ For front-end development, I plan to use HTML, CSS, JavaScript, and React. React
 
 
 
+
 ## State Management
 
 For state management and data handling, I plan to use React state management features along with MongoDB for database storage. I may also use local storage for saving temporary user preferences or session data. As the project grows, I may explore Redux or Context API to better manage application state across multiple components. MongoDB is appealing because it is flexible and integrates well with JavaScript applications using the MERN stack approach.
