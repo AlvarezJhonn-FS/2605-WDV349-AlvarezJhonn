@@ -31,30 +31,29 @@ Branding helps deine the overal personality and apperances of an application.
 * Typography, colors and images infences how users feels about a product.
 * A strong visual helps users recognize and remember the applications.
 
+
 <br>
 
-## Sub-Topic 3 - Replace with your sub-topic
-Brief overview of research. 
+## Sub-Topic 3 - Typography and Fonts
+Typography is an important part of user experinec and brinding
 
-* Key finding 1...
-* 2
-* 3 
-
+* Sans-serif fonts create a clean and modern appereance.
+* Font hierarchy improves readability and content organization.
+* Conistent typography creates a more professional interface. 
 
     
 <br>
 
 ## Reference Links
-Use this section to highlight your own independent research. Replace the example references below with your own links and recommended resources. For example...
 
-**Resource 1: Title**  
-[Name of Site or Article Here](https://www.someaddress.com/full/url/): Here's what I learned about...  
+**Resource 1: Typography Guide**  
+[Adobe creative](https://www.adobe.com/creativecloud/design/discover/typography.html): This article explains how typography influences readability, branding and user engagement.  
 
-**Resource 2: Title**    
-[Name of Site or Article Here](https://www.someaddress.com/full/url/): This site showed me how to...
+**Resource 2: Color Theory**    
+[Color Theory](https://www.figma.com/resource-library/what-is-color-theory/): This guide provides information about color symbolism, accessability, and balanced color palettes.
 
-**Resource 3: Title**      
-[Name of Site or Article Here](https://www.someaddress.com/full/url/): This article explains that...
+**Resource 3: Style Tiles**      
+[Style Tiles](https://styletil.es/): This article explains how style tiles establishes branding descitions before creating full interface designs.
 
 <br>
 
