@@ -41,7 +41,18 @@ Next week I plan to continue refining my project requirements and begin the appl
 
 ### Week 2
 
-My next stand up will go here...
+⚙️ **Overview** 
+This week i focused on project research, wireframing, branding, typography research, color theory and style tile. development. I updated socumantation in the docs foder created a design using Figma and continued organizing workflows using Github branches and pull requests.
+
+🌵 **Challenges** 
+One challenge was deciding on a consistant and visual style for the application. I addressed this by researching typography, color palettes, and branding examples to better understand what design choices would fit my project. I also had an issue with creating my style tile which will unfortionately not be submitted.
+
+🏆 **Accomplishments**  
+
+I improved my understanding of wireframing, branding consistency and Github workflow management. I also gained more experince using feature branches, pull requests and organizing porject documentation.
+
+🔮 **Next Steps**  
+Next, i plan to continue refining my wireframe, improve and create my style tile, and continue iterating on the project structure branding based on feedback.
 
 ### Week 3
 
