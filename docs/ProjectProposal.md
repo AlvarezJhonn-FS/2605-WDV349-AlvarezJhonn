@@ -2,15 +2,15 @@
 
 ## Application Definition Statement
 
-TaskFlow is a web application designed to help users organize and manage their daily tasks, projects and goals in one place. The application will allow users to create tasks, track progress, and stay productive through a clean an duser friendly interface. The target audience includes studenets, freelancers and people who struggle with staying organized using multiple disconnected solutions while also servign as a porfolio development porject.
+TaskFlow is a web application designed to help users organize and manage their daily tasks, projects and goals in one place. The application will allow users to create tasks, track progress, and stay productive through a clean an user friendly interface. The target audience includes students, freelancers and people who struggle with staying organized using multiple disconnected solutions while also serving as a portfolio development project.
 
 ## Target Market
 
-The target market for this application includes sudents, freelancers, entry level professionals and small teams who regularly manage scheduels assignemnts, porjects or personal goals. Many people that use digital tools daily and prefer web applications that are simple, fast and accessible across devices.
+The target market for this application includes students, freelancers, entry level professionals and small teams who regularly manage schedules assignments, projects or personal goals. Many people that use digital tools daily and prefer web applications that are simple, fast and accessible across devices.
 
-Primary research includes discussion family, coworkers and friends, and online forums who constantly need to keep track of projecs or assignments, and how they currently organiz them. Many expressed with swictching between apps or forgetting deadlines because their systems were inconsistent.
+Primary research includes discussion family, coworkers and friends, and online forums who constantly need to keep track of projects or assignments, and how they currently organic them. Many expressed with switching between apps or forgetting deadlines because their systems were inconsistent.
 
-Sencondary research includes reviewing articles adn trends related to productivity applications and task management tools. Research shows that productivity and organization applications continue to grow in popularity among students an dremote workers due to increase workload and digital collaboration needs.
+Secondary research includes reviewing articles adn trends related to productivity applications and task management tools. Research shows that productivity and organization applications continue to grow in popularity among students an demote workers due to increase workload and digital collaboration needs.
 
 References: -https://dl.acm.org/doi/10.1145/3582429 -https://www.tandfonline.com/doi/full/10.1080/2331186X.2023.2232686#d1e243
 
@@ -20,7 +20,7 @@ Name: Jhonn Alvarez Molina
 Age:25
 Occupation: College student/Full-Time Employee
 
-Jhonn manages college assignemnts,Work schedules adn personal projects throughout the week. They often struggle to stay organized because information is spread across notes, calendars and reminder apps. Jhonn preffers applications that are simple to use, mobile friendly, and visually clean. He values applications that save time and help reduce stress to missed deadlines and poor organization.
+Jhonn manages college assignments,Work schedules adn personal projects throughout the week. They often struggle to stay organized because information is spread across notes, calendars and reminder apps. Jhonn prefers applications that are simple to use, mobile friendly, and visually clean. He values applications that save time and help reduce stress to missed deadlines and poor organization.
 
 ## Use Cases
 
