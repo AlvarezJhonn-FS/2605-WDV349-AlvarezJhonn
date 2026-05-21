@@ -37,7 +37,7 @@ One challenge I faced this week was understanding how GitHub feature branches, p
 This week I improved my understanding of GitHub workflow, pull requests, branching strategies, and project organization. I also gained more confidence using Git commands and managing development work across multiple branches. Completing the initial planning and documentation for my project helped me better understand how to structure a full-stack application before development begins.
 
 🔮 **Next Steps**  
-Next week I plan to continue refining my project requirements and begin the application design phase by creating wireframes, UI concepts, and branding ideas. I also want to begin organizing the project structure for both the frontend and backend while continuing to use feature branch workflow throughout development.
+Next week I plan to continue refining my project requirements and begin the application design phase by creating wireframe, UI concepts, and branding ideas. I also want to begin organizing the project structure for both the frontend and backend while continuing to use feature branch workflow throughout development.
 
 ### Week 2
 
