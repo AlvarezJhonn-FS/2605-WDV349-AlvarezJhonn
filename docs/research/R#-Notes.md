@@ -42,7 +42,13 @@ Typography is an important part of user experience and branding
 * Consistent typography creates a more professional interface. 
 
 ## Sub-Topic 3 - Design Theory
-    
+Design Theory is a psychological principal and structural rule that dictates how users interact with and perceive interfaces.
+
+* The Aesthetic Usability effect proves that users perceive attractive design as more intuitive and usable.
+* Choice Overload causes mental fatigue, meaning minimal options keep user descition path clear.
+* Chunking breaks massive data sets into small, distinct units to maximize memory retention and cognitive confort.
+* Jakob's law dictates that users expect your application to look and operate like the standard website they already know.
+
 <br>
 
 ## Reference Links
