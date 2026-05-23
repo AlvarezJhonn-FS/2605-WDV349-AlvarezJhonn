@@ -41,13 +41,21 @@ Typography is an important part of user experience and branding
 * Font hierarchy improves readability and content organization.
 * Consistent typography creates a more professional interface. 
 
-## Sub-Topic 3 - Design Theory
+## Sub-Topic 4 - Design Theory
 Design Theory is a psychological principal and structural rule that dictates how users interact with and perceive interfaces.
 
 * The Aesthetic Usability effect proves that users perceive attractive design as more intuitive and usable.
-* Choice Overload causes mental fatigue, meaning minimal options keep user descition path clear.
-* Chunking breaks massive data sets into small, distinct units to maximize memory retention and cognitive confort.
+* Choice Overload causes mental fatigue, meaning minimal options keep user decision path clear.
+* Chunking breaks massive data sets into small, distinct units to maximize memory retention and cognitive comfort.
 * Jakob's law dictates that users expect your application to look and operate like the standard website they already know.
+
+## Sub-Topic 5 - Plans for Production
+Plans for Production is a developmental roadmap an organizational framework that dictates how tasks are structured before entering active implementation phases.
+
+* GitHub issues serve as a central project management workspace to catalog immediate tasks alongside long term software architecture goals.
+* Atomic Design principles establishes help you build modular UI components by breaking layouts down into small, chemical style pieces.
+* Thinking in React lets you look at a static  design mockup and easily sketch out the component code structure to match your JSON data.
+* API Best Practices keep your RESTful design choices straightforward so your frontend backend talk to each other without any surprise.
 
 <br>
 
