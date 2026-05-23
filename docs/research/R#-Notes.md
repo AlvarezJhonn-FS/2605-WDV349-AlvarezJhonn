@@ -41,6 +41,7 @@ Typography is an important part of user experience and branding
 * Font hierarchy improves readability and content organization.
 * Consistent typography creates a more professional interface. 
 
+## Sub-Topic 3 - Design Theory
     
 <br>
 
