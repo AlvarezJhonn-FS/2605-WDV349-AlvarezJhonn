@@ -1,13 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import Dashboard from './components/dashboard'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
- <section id="test"> 
- <h1>Test</h1>
- </section>
+    <div>
+ <Dashboard />
+ </div>
   )
 }
 
