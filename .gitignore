@@ -1,1 +1,37 @@
 node_modules/
+
+# Environment Variables
+.env*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Logs
+Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor Settings
+.vscode/
+
+# Build Output (if applicable)
+dist/
+build/
+out/
+.cache/
+.parcel-cache
+.next/
+
+# Netlify
+.netlify
+
+# npm Cache
+.npm/
+
+# OS files (optional but helpful)
+Thumbs.db
+
+# ESLint Cache
