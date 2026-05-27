@@ -42,21 +42,27 @@ Next week I plan to continue refining my project requirements and begin the appl
 ### Week 2
 
 ⚙️ **Overview** 
-This week i focused on project research, wireframing, branding, typography research, color theory and style tile. development. I updated socumantation in the docs foder created a design using Figma and continued organizing workflows using Github branches and pull requests.
+This week i focused on project research, wireframe, branding, typography research, color theory and style tile. development. I updated documentation in the docs folder created a design using Figma and continued organizing workflows using Github branches and pull requests.
 
 🌵 **Challenges** 
-One challenge was deciding on a consistant and visual style for the application. I addressed this by researching typography, color palettes, and branding examples to better understand what design choices would fit my project. I also had an issue with creating my style tile which will unfortionately not be submitted.
+One challenge was deciding on a consistent and visual style for the application. I addressed this by researching typography, color palettes, and branding examples to better understand what design choices would fit my project. I also had an issue with creating my style tile which will unfortunately not be submitted.
 
 🏆 **Accomplishments**  
 
-I improved my understanding of wireframing, branding consistency and Github workflow management. I also gained more experince using feature branches, pull requests and organizing porject documentation.
+I improved my understanding of wireframe, branding consistency and Github workflow management. I also gained more experience using feature branches, pull requests and organizing project documentation.
 
 🔮 **Next Steps**  
 Next, i plan to continue refining my wireframe, improve and create my style tile, and continue iterating on the project structure branding based on feedback.
 
 ### Week 3
 
-Stay tuned, this stand up is coming soon...
+⚙️ Overview - This past week, I transitioned TaskFlow from conceptual wireframe to a live, interactive high-fidelity prototype using Figma Make. I designed and validated the user journeys across four core screens: Dashboard, Tasks, Projects, and Analytics. Concurrently, I conducted deep-dive research into foundational UI/UX design theory, accessibility considerations for dialog modals, REST API best practices, and structured component architectures.
+<br>
+🌵 Challenges - My primary challenge was time this week. I had to rush trough a lot of the assignments to get the most important one completed. Most of my assignments might not be completed to the fullest.
+<br>
+🏆 Accomplishments - I successfully managed a dedicated designs feature branch, organized all visual documentation assets cleanly inside a docs/designs/ directory, and executed a clean upstream Pull Request merge into my dev branch. Furthermore, I learned how to leverage GitHub Issues and RESTful conventions to convert design frames into concrete, trackable engineering tasks.
+<br>
+🔮 Next Steps - With the prototyping phase officially closed, my immediate priority is setting up the concrete development environment. I will focus on initializing the React repository ecosystem, defining the initial database schemas for tasks and projects based on REST best practices, and configuring containerized hot-reloading using Docker Compose to establish a frictionless development pipeline.
 
 ### Week 4
 
