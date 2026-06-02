@@ -57,6 +57,12 @@ Plans for Production is a developmental roadmap an organizational framework that
 * Thinking in React lets you look at a static  design mockup and easily sketch out the component code structure to match your JSON data.
 * API Best Practices keep your RESTful design choices straightforward so your frontend backend talk to each other without any surprise.
 
+## Sub-Topic 6 - Front End Development
+The Font end Development is a client-side architecture framework that dictates how user interface and presentation layers are constructed before entering active feature implementation.
+
+* React component hierarchies serve as a central user interface workspace to catalog immediate layout blocks alongside long term software architecture views.
+* Reusable UI Elements stablish help you build modular UI components by breaking complex layouts down into small, isolated style pieces.
+* Component Scoped Logic looks at the static design mockup and easily sketches out the functional code structure to match your JSON data.
 <br>
 
 ## Reference Links
