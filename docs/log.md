@@ -66,6 +66,14 @@ Next, i plan to continue refining my wireframe, improve and create my style tile
 
 ### Week 4
 
+⚙️ Overview - This week I focused on breaking down my Figma prototypes into a reusable component hierarchy and setting up the core front-end development environment. I researched architectural best practices, folder organization, and code-quality guardrails. Finally, I reviewed deployment strategies, staging vs. production environments, and logging practices, culminating in a comprehensive project showcase video reflecting on my progress throughout the entire module.
+
+🌵 Challenges - A major challenge this week mostly time and shifting my mindset from static visual designs to dynamic, state-driven component architectures while maintaining proper data management using props and mock data. Additionally, balancing the time required to record a polished 3-to-5-minute technical showcase video alongside my development setup forced me to strictly prioritize my engineering tasks and presentation delivery under a tight deadline.
+
+🏆 Accomplishments - No actual accomplishments were able to be made this week.
+
+🔮 Next Steps - Moving forward, my immediate priority is to start writing functional React code based on my research. I will focus on implementing the UI layouts, managing component states using the static JSON mock data, handling routing between screens, and pushing these updates through my Git feature branch workflow into the dev branch.
+
 My final stand up...
 
 
