@@ -98,3 +98,46 @@ Documentation References:
 - https://expressjs.com
 - https://www.mongodb.com
 - https://mongoosejs.coms
+
+---
+
+## Scope Confirmation
+
+The current TaskFlow project scope remains focused on providing a centralized productivity and task-management application. The project will continue to support the following core functionality:
+
+- User account creation and secure login
+- Creating, editing, deleting, and organizing tasks
+- Task status and completion tracking
+- Project and category organization
+- Progress indicators and productivity statistics
+- Responsive dashboard
+- Task search and filtering
+- REST API functionality using Node.js and Express
+- MongoDB and Mongoose database integration
+
+The scope will remain focused on task management and productivity rather than expanding into a large collaboration or enterprise platform.
+
+## Changes for Milestone 1
+
+The following changes and clarifications have been made as part of the current milestone:
+
+- The TaskFlow project scope has been reviewed and clarified.
+- Project discovery and business-case research have been added to the project documentation.
+- The project workflow has been organized using GitHub issues, milestones, project views, feature branches, and pull requests.
+- The project will prioritize the core task-management functionality before considering additional integrations.
+- Potential third-party integrations remain optional and will not be treated as required core functionality unless development time allows.
+
+## Remaining Work Estimate
+
+Based on the current project scope, the remaining development work is estimated at approximately **25–35 hours**. This estimate includes continued implementation, integration, testing, responsive design adjustments, documentation, and final project preparation.
+
+The estimate may change as development and testing continue.
+
+## Change Order Summary
+
+No major changes to the original purpose of TaskFlow are being requested. This change order primarily clarifies the existing scope and establishes priorities for the remaining development work.
+
+The priority will be completing and testing the core TaskFlow functionality before adding optional features or third-party integrations.
+
+---
+
