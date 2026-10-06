@@ -74,7 +74,20 @@ Next, i plan to continue refining my wireframe, improve and create my style tile
 
 🔮 Next Steps - Moving forward, my immediate priority is to start writing functional React code based on my research. I will focus on implementing the UI layouts, managing component states using the static JSON mock data, handling routing between screens, and pushing these updates through my Git feature branch workflow into the dev branch.
 
-My final stand up...
+### Week 5
+
+⚙️ **Overview**  
+This week I focused on preparing TaskFlow for Milestone 1 by organizing the GitHub project workflow and clarifying the project scope. I created and organized milestone issues, labels, project views, and the development-to-stage pull request. I also completed project clarification research and updated the Project Proposal and Tech Stack documentation using feature branches and pull requests.
+
+🌵 **Challenges**  
+One challenge this week was managing the GitHub workflow across multiple feature branches and pull requests while making sure changes were merged into the correct branch. I also had to clarify the project's scope and determine which features should remain core to TaskFlow and which features should remain optional.
+
+🏆 **Accomplishments**  
+I completed the Milestone 1 research documentation and successfully merged the research pull request into the dev branch. I also updated the Project Proposal and Tech Stack documents, added the required Change Order sections, and successfully merged both documentation pull requests into dev. I improved my understanding of managing GitHub milestones, issues, labels, feature branches, and pull requests.
+
+🔮 **Next Steps**  
+My next priorities are to complete the Milestone 1 weekly documentation, review the TaskFlow project structure, continue development work, organize the GitHub project board, and complete the remaining Milestone 1 requirements. I will also continue using the feature branch workflow and prepare the completed work for staging and final review.
+
 
 
 
