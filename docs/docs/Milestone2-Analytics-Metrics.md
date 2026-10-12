@@ -104,4 +104,8 @@ The metrics in this document are proposed measures, not current analytics result
 
 ## 8. References
 
-Add sources used to support the metric definitions and testing methods. Include source titles, publishers, URLs, and publication dates where available.
+Google. (n.d.). *Firebase A/B Testing*. Firebase Documentation. https://firebase.google.com/docs/ab-testing
+
+Google Search Central. (n.d.). *Minimize A/B testing impact in Google Search*. Google for Developers. https://developers.google.com/search/docs/crawling-indexing/website-testing
+
+Nielsen Norman Group. (n.d.). *Usability testing 101*. https://www.nngroup.com/articles/usability-testing-101/
