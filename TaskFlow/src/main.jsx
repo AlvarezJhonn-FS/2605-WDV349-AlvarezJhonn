@@ -33,8 +33,8 @@ function App() {
   }
 
   function toggleTask(id) {
-    setTasks(
-      tasks.map((task) =>
+    setTasks((currentTasks) =>
+      currentTasks.map((task) =>
         task.id === id
           ? { ...task, completed: !task.completed }
           : task
@@ -55,7 +55,7 @@ function App() {
           </p>
         </div>
 
-        <div className="progress">
+        <div className="progress" aria-live="polite">
           <strong>{completedTasks}</strong>
           <span>of {tasks.length} completed</span>
         </div>
@@ -71,6 +71,7 @@ function App() {
             placeholder="Add a new task..."
             value={newTask}
             onChange={(event) => setNewTask(event.target.value)}
+            aria-label="New task title"
           />
           <button type="submit">Add Task</button>
         </form>
@@ -85,8 +86,14 @@ function App() {
                 type="checkbox"
                 checked={task.completed}
                 onChange={() => toggleTask(task.id)}
+                aria-label={`Mark "${task.title}" ${
+                  task.completed ? "incomplete" : "complete"
+                }`}
               />
               <span>{task.title}</span>
+              {task.completed && (
+                <span className="completion-status">Completed</span>
+              )}
             </label>
           ))}
         </div>
