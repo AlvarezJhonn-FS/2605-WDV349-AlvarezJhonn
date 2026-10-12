@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useRef, useState } from "react"
 import { createRoot } from "react-dom/client"
 import "./styles/app.css"
 
@@ -9,11 +9,15 @@ function App() {
   ])
 
   const [newTask, setNewTask] = useState("")
+  const taskInputRef = useRef(null)
 
   function addTask(event) {
     event.preventDefault()
 
-    if (!newTask.trim()) return
+    if (!newTask.trim()) {
+      taskInputRef.current?.focus()
+      return
+    }
 
     setTasks([
       ...tasks,
@@ -25,6 +29,7 @@ function App() {
     ])
 
     setNewTask("")
+    taskInputRef.current?.focus()
   }
 
   function toggleTask(id) {
@@ -61,6 +66,7 @@ function App() {
 
         <form onSubmit={addTask} className="task-form">
           <input
+            ref={taskInputRef}
             type="text"
             placeholder="Add a new task..."
             value={newTask}
