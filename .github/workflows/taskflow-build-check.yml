@@ -1,3 +1,4 @@
+
 name: TaskFlow Build Check
 
 on:
@@ -24,6 +25,10 @@ jobs:
       - name: Install dependencies
         working-directory: TaskFlow
         run: npm install --include=optional
+
+      - name: Install Linux native binding
+        working-directory: TaskFlow
+        run: npm install --no-save --include=optional @rolldown/binding-linux-x64-gnu
 
       - name: Build TaskFlow
         working-directory: TaskFlow
