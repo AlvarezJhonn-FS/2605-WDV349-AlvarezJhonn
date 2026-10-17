@@ -1,0 +1,41 @@
+
+name: TaskFlow Build Check
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request:
+    branches:
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: TaskFlow/package-lock.json
+
+      - name: Install dependencies
+        working-directory: TaskFlow
+        run: npm ci --include=optional
+
+      - name: Verify Rolldown version
+        working-directory: TaskFlow
+        run: npm ls vite rolldown
+
+      - name: Install Linux native binding
+        working-directory: TaskFlow
+        run: npm install --no-save --package-lock=false --include=optional @rolldown/binding-linux-x64-gnu@1.0.2
+
+      - name: Build TaskFlow
+        working-directory: TaskFlow
+        run: npm run build
