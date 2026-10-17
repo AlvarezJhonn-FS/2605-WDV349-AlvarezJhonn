@@ -102,7 +102,23 @@ I addressed the root README feedback, closed the completed Milestone 1 board org
 🔮 **Next Steps**  
 My next priorities are to update the weekly documentation, complete the business-case research and validation planning, test the core task creation and completion workflows, and improve the TaskFlow user experience. I will also review the project roadmap, maintain the development-to-stage pull request workflow, and make incremental commits and pull requests to demonstrate progress throughout the milestone.
 
+### Week 7
 
+### ⚙️ Overview
+
+This week, I created research documentation covering SWOT analysis, OWASP web application security risks, security-scanning tools, and creativity and innovation. I also organized Milestone 3 issues to track security research, dependency auditing, CI improvements, documentation, and instructor feedback.
+
+### 🌵 Challenges
+
+One challenge is deciding which security tools and improvements are appropriate for a project that is still developing. I plan to review dependency audit results and compare available tools before making changes that could affect the build.
+
+### 🏆 Accomplishments
+
+I added a Milestone 3 security and innovation research document and organized project work through GitHub issues, labels, and the milestone. I also continued using feature branches and pull requests to keep changes organized.
+
+### 🔮 Next Steps
+
+I plan to review TaskFlow's dependency audit results, evaluate security-scanning options, improve testing where appropriate, and continue documenting progress. I will also review the research findings and update the project as specific security improvements are identified.
 
 
 <br>
