@@ -125,18 +125,24 @@ I plan to review TaskFlow's dependency audit results, evaluate security-scanning
 
 ### ⚙️ Overview
 
-This week I began preparing TaskFlow for Milestone 4 and the final showcase. I created the Milestone 4 milestone and organized the remaining work into research and documentation, development and beta readiness, and release review issues. I also created a research document covering clean code, CSS organization, prioritization using the 80/20 principle, code comments, linting and formatting, README quality, and beta testing.
+This week I continued preparing TaskFlow for Milestone 4 and the final showcase. I created the Milestone 4 milestone and organized the remaining work into research and documentation, development and beta readiness, and release review issues. I also created a research document covering clean code, CSS organization, prioritization using the 80/20 principle, code comments, linting and formatting, README quality, and beta testing.
+
+I also improved TaskFlow by implementing browser-based task persistence using `localStorage`. This allows tasks and their completion status to remain saved when the browser page is refreshed.
 
 ### 🌵 Challenges
 
-One challenge was aligning the documentation and Git workflow with the actual repository structure. I confirmed that the application is inside the TaskFlow directory while the project documentation is maintained in the repository-level docs directory. I also needed to ensure my local dev branch was updated before creating a dedicated research branch.
+One challenge was aligning the documentation and Git workflow with the actual repository structure. I confirmed that the application is inside the TaskFlow directory while the project documentation is maintained in the repository-level `docs` directory. I also needed to ensure my local `dev` branch was updated before working on a dedicated feature branch.
+
+Another challenge was identifying why tasks disappeared after refreshing the browser. The application initially stored tasks only in React state. I addressed this by implementing `localStorage` to load previously saved tasks and save changes whenever the task list is updated.
 
 ### 🏆 Accomplishments
 
 I created the Milestone 4 research feature branch and drafted the staging and beta-readiness research document with references to relevant documentation. I also verified that the dependency-audit pull request had been merged and its GitHub checks passed.
 
+Additionally, I implemented and merged the task-persistence feature through GitHub pull request #84. I verified that tasks remain available after refreshing the browser and that their completion status is preserved. I also ran `npm run build` successfully after merging the feature into `dev` and confirmed that my local branch was synchronized with `origin/dev` with a clean working tree.
+
 ### 🔮 Next Steps
 
-My next priorities are to review the research document, update this weekly log through a feature-branch pull request, complete the remaining Milestone 4 development and release checks, and prepare the live TaskFlow demonstration and showcase video. I will record testing results and document any remaining issues before presenting the project as beta-ready.
+My next priorities are to complete the remaining Milestone 4 development and release checks, update the project documentation with the latest testing results, and prepare the live TaskFlow demonstration and showcase video. I will present the application's functionality, code structure, security practices, beta testing, and lessons learned. I will also document any remaining issues before presenting the project as beta-ready.
 
 <br>
