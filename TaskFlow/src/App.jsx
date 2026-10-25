@@ -1,19 +1,58 @@
-import React, { useRef, useState } from "react"
+
+import React, { useEffect, useRef, useState } from "react"
 import "./styles/app.css"
 
+const DEFAULT_TASKS = [
+  {
+    id: 1,
+    title: "Review TaskFlow project requirements",
+    completed: false,
+  },
+  {
+    id: 2,
+    title: "Complete Milestone 1 documentation",
+    completed: true,
+  },
+]
+
+const STORAGE_KEY = "taskflow-tasks"
+
 function App() {
-  const [tasks, setTasks] = useState([
-    { id: 1, title: "Review TaskFlow project requirements", completed: false },
-    { id: 2, title: "Complete Milestone 1 documentation", completed: true },
-  ])
+  const [tasks, setTasks] = useState(() => {
+    try {
+      const savedTasks = localStorage.getItem(STORAGE_KEY)
+
+      if (savedTasks !== null) {
+        const parsedTasks = JSON.parse(savedTasks)
+
+        if (Array.isArray(parsedTasks)) {
+          return parsedTasks
+        }
+      }
+    } catch (error) {
+      console.error("Could not load saved tasks:", error)
+    }
+
+    return DEFAULT_TASKS
+  })
 
   const [newTask, setNewTask] = useState("")
   const taskInputRef = useRef(null)
 
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks))
+    } catch (error) {
+      console.error("Could not save tasks:", error)
+    }
+  }, [tasks])
+
   function addTask(event) {
     event.preventDefault()
 
-    if (!newTask.trim()) {
+    const trimmedTask = newTask.trim()
+
+    if (!trimmedTask) {
       taskInputRef.current?.focus()
       return
     }
@@ -22,7 +61,7 @@ function App() {
       ...currentTasks,
       {
         id: Date.now(),
-        title: newTask.trim(),
+        title: trimmedTask,
         completed: false,
       },
     ])
@@ -41,7 +80,9 @@ function App() {
     )
   }
 
-  const completedTasks = tasks.filter((task) => task.completed).length
+  const completedTasks = tasks.filter(
+    (task) => task.completed
+  ).length
 
   return (
     <main className="app">
@@ -72,6 +113,7 @@ function App() {
             onChange={(event) => setNewTask(event.target.value)}
             aria-label="New task title"
           />
+
           <button type="submit">Add Task</button>
         </form>
 
@@ -89,9 +131,13 @@ function App() {
                   task.completed ? "incomplete" : "complete"
                 }`}
               />
+
               <span>{task.title}</span>
+
               {task.completed && (
-                <span className="completion-status">Completed</span>
+                <span className="completion-status">
+                  Completed
+                </span>
               )}
             </label>
           ))}
