@@ -14,7 +14,6 @@ Designed with students and busy individuals in mind, TaskFlow offers a focused w
 ## A focused set of core features
 
 The current release includes:
-
 - Task creation.
 - Completion and reopening of tasks.
 - A visible completed-task count.
