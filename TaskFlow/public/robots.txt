@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://taskflow-chi-self-98.vercel.app/sitemap.xml
